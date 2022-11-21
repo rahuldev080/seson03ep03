@@ -23,7 +23,7 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'docker hub'
-        repository: 'rahulnew080/binarythistle'
+        repository: 'rahulnew080/ binarythistle'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: |
